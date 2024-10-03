@@ -1,0 +1,119 @@
+*{
+	margin:0;
+	padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e9ecec;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1{
+    line-height: 80px;
+    text-align: center;
+    font-size: 35.7px;
+    margin-bottom: 18px;
+    font-weight: bold;
+    text-shadow: 1px 2px 3px;
+}
+
+#question-container{
+    line-height: 38px;
+    text-align: center;
+    font-size: 13.8px;
+
+}
+
+header {
+    background-color: #ffffff; /* Azul marinho */
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    max-width: 30vh;
+}
+
+#quiz-container {
+    max-width: 650px;
+    margin: 20px auto;
+    padding: 45px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.hidden {
+    display: none;
+}
+
+.correct {
+    color: blue; /* Resposta correta */
+}
+
+.incorrect {
+    color: red; /* Resposta incorreta */
+}
+
+.card {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #e7e7e7;
+    border-radius: 5px;
+}
+
+#progress-container {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+#progress-bar {
+    height: 10px;
+    background-color: #2596be; /* Azul marinho */
+    border-radius: 5px;
+    transition: width 0.3s;
+}
+
+button {
+    background-color: #44ad62; /* Azul marinho */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 100%; /* Ajuste para ocupar toda a largura */
+}
+
+#next-button {
+    background-color: #f0f0f0; /* Branco gelo */
+    color: #001f3f; /* Azul marinho */
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #44ad6273; /* Azul mais claro */
+}
+
+.answer-button {
+    display: block;
+    margin: 5px 0;
+    background-color: #397c9b; /* Azul marinho */
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%; /* Para manter o tamanho igual */
+}
+
+.answer-button:hover {
+    background-color: #31708d8c; /* Azul mais claro */
+}
+
